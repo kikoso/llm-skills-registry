@@ -1,0 +1,19 @@
+{
+  "name": "llm-skills-registry",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm run generate-registry && next dev",
+    "build": "npm run generate-registry && next build",
+    "generate-registry": "node scripts/generate-registry.mjs",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "glob": "latest"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Weather Pro",
+  "description": "A skill that allows LLMs to fetch real-time weather data from OpenWeatherMap.",
+  "version": "1.0.0",
+  "author": "kikoso",
+  "manifestUrl": "https://example.com/weather-manifest.json",
+  "tags": ["utility", "weather", "api"],
+  "createdAt": "2026-04-02T10:00:00Z"
+}
