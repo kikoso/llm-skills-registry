@@ -2,6 +2,7 @@
 const nextConfig = {
   output: 'export',
   distDir: 'out',
+  basePath: '/llm-skills-registry',
   images: {
     unoptimized: true,
   },

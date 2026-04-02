@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import { useState, useMemo } from 'react';
 import registry from '../registry.json';
 
@@ -39,8 +40,8 @@ export default function Home() {
         <h1>Skill Registry</h1>
         <p className="subtitle">The hub for LLM skills and manifests</p>
         <nav className="nav">
-          <a href="/">Home</a>
-          <a href="/submit">Submit Skill</a>
+          <Link href="/">Home</Link>
+          <Link href="/submit">Submit Skill</Link>
         </nav>
       </header>
 

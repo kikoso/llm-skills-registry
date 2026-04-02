@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 
 export default function Submit() {
   const GITHUB_REPO = 'https://github.com/kikoso/llm-skills-registry/new/main/skills';
@@ -27,8 +28,8 @@ export default function Submit() {
         <h1>Submit a Skill</h1>
         <p className="subtitle">Add your skill to the public registry via GitHub</p>
         <nav className="nav">
-          <a href="/">Home</a>
-          <a href="/submit">Submit Skill</a>
+          <Link href="/">Home</Link>
+          <Link href="/submit">Submit Skill</Link>
         </nav>
       </header>
 
