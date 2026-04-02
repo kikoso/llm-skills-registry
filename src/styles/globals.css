@@ -160,10 +160,33 @@ button {
   margin-bottom: 1rem;
 }
 
-.no-results {
-  text-align: center;
-  padding: 3rem;
-  color: var(--gray);
-  border: 1px dashed var(--border);
-  border-radius: 8px;
+.skill-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.action-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  border: none;
+}
+
+.action-btn.primary {
+  background: var(--primary);
+  color: white;
+}
+
+.action-btn.secondary {
+  background: #f0f0f0;
+  color: #333;
+}
+
+.action-btn:hover {
+  opacity: 0.8;
 }

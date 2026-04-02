@@ -83,10 +83,29 @@ export default function Home() {
             <div key={skill.name} className="skill-card">
               <div className="skill-name">{skill.name}</div>
               <p>{skill.description}</p>
-              <div>
+              <div style={{ marginBottom: '1rem' }}>
                 {skill.tags?.map(tag => (
                   <span key={tag} className="tag">{tag}</span>
                 ))}
+              </div>
+              <div className="skill-actions">
+                <button 
+                  className="action-btn primary"
+                  onClick={() => {
+                    navigator.clipboard.writeText(skill.manifestUrl);
+                    alert('Manifest URL copied to clipboard!');
+                  }}
+                >
+                  Copy Manifest URL
+                </button>
+                <a 
+                  href={skill.manifestUrl} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="action-btn secondary"
+                >
+                  View Source
+                </a>
               </div>
               <div style={{ marginTop: '1rem', fontSize: '0.9rem', color: '#666' }}>
                 By {skill.author} • v{skill.version}
