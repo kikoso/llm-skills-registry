@@ -19,6 +19,8 @@ function MyApp({ Component, pageProps }) {
             gtag('js', new Date());
             gtag('config', 'G-M37D0QHKMX', {
               page_path: window.location.pathname,
+              site_id: 'findskills',
+              send_page_view: true
             });
           `,
         }}
