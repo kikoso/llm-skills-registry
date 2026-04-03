@@ -33,7 +33,7 @@ export default function Home() {
       <Head>
         <title>FindSkills.dev | LLM Skill Registry</title>
         <meta name="description" content="Discover and install verified skills for your AI agents and LLMs." />
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="icon" href="/llm-skills-registry/favicon.svg" type="image/svg+xml" />
       </Head>
 
       <header>

@@ -20,7 +20,7 @@ export default function Submit() {
     <div className="container">
       <Head>
         <title>Submit Skill | FindSkills.dev</title>
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="icon" href="/llm-skills-registry/favicon.svg" type="image/svg+xml" />
       </Head>
 
       <header>
