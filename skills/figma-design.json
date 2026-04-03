@@ -1,0 +1,9 @@
+{
+  "name": "Figma Design",
+  "description": "Interact with Figma files, layers, and components via this structured Agent Skill.",
+  "version": "1.0.0",
+  "author": "Yuyz0112",
+  "manifestUrl": "https://raw.githubusercontent.com/Yuyz0112/public-api-skills/main/apis/figma/figma-api/SKILL.md",
+  "tags": ["design", "figma", "ui"],
+  "createdAt": "2026-04-02T15:05:00Z"
+}

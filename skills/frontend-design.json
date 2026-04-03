@@ -1,0 +1,9 @@
+{
+  "name": "Frontend Design Pro",
+  "description": "Official Anthropic skill for generating production-grade UI/UX designs and React code.",
+  "version": "1.0.0",
+  "author": "Anthropic",
+  "manifestUrl": "https://raw.githubusercontent.com/anthropics/skills/main/skills/frontend-design/SKILL.md",
+  "tags": ["frontend", "react", "ui"],
+  "createdAt": "2026-04-02T15:20:00Z"
+}

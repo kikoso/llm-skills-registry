@@ -1,0 +1,9 @@
+{
+  "name": "Skill Creator (Anthropic)",
+  "description": "The official meta-skill from Anthropic to help you bootstrap and refine your own custom agent skills.",
+  "version": "1.0.0",
+  "author": "Anthropic",
+  "manifestUrl": "https://raw.githubusercontent.com/anthropics/skills/main/skills/skill-creator/SKILL.md",
+  "tags": ["meta", "anthropic", "creation"],
+  "createdAt": "2026-04-02T15:15:00Z"
+}

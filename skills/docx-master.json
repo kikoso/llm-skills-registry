@@ -1,0 +1,9 @@
+{
+  "name": "Word (DOCX) Master",
+  "description": "Official Anthropic skill for creating and editing complex Microsoft Word documents.",
+  "version": "1.0.0",
+  "author": "Anthropic",
+  "manifestUrl": "https://raw.githubusercontent.com/anthropics/skills/main/skills/docx/SKILL.md",
+  "tags": ["documents", "word", "office"],
+  "createdAt": "2026-04-02T15:30:00Z"
+}

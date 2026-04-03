@@ -1,0 +1,9 @@
+{
+  "name": "PowerPoint (PPTX) Expert",
+  "description": "Official Anthropic skill for creating professional PowerPoint presentations and slides.",
+  "version": "1.0.0",
+  "author": "Anthropic",
+  "manifestUrl": "https://raw.githubusercontent.com/anthropics/skills/main/skills/pptx/SKILL.md",
+  "tags": ["slides", "presentation", "office"],
+  "createdAt": "2026-04-02T15:40:00Z"
+}

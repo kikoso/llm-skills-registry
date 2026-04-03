@@ -1,0 +1,9 @@
+{
+  "name": "Webapp Testing",
+  "description": "Automated testing workflow for web applications, providing specialized instructions for agent-led testing.",
+  "version": "1.0.0",
+  "author": "Anthropic",
+  "manifestUrl": "https://raw.githubusercontent.com/anthropics/skills/main/skills/webapp-testing/SKILL.md",
+  "tags": ["testing", "qa", "web"],
+  "createdAt": "2026-04-02T15:25:00Z"
+}

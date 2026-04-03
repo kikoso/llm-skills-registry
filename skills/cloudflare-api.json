@@ -1,0 +1,9 @@
+{
+  "name": "Cloudflare API",
+  "description": "Comprehensive Agent Skill for managing Cloudflare services, DNS, and workers.",
+  "version": "1.0.0",
+  "author": "Yuyz0112",
+  "manifestUrl": "https://raw.githubusercontent.com/Yuyz0112/public-api-skills/main/apis/cloudflare/cloudflare-api/SKILL.md",
+  "tags": ["dns", "networking", "cloudflare"],
+  "createdAt": "2026-04-02T15:00:00Z"
+}

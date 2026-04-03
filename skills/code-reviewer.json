@@ -1,0 +1,9 @@
+{
+  "name": "Code Reviewer",
+  "description": "Community-verified checklist and workflow for automated AI code reviews.",
+  "version": "1.0.0",
+  "author": "JackyST0",
+  "manifestUrl": "https://raw.githubusercontent.com/JackyST0/awesome-agent-skills/main/examples/code-review/SKILL.md",
+  "tags": ["code-review", "git", "development"],
+  "createdAt": "2026-04-02T15:50:00Z"
+}
