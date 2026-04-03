@@ -1,0 +1,9 @@
+{
+  "name": "Stripe API Skill",
+  "description": "A comprehensive Agent Skill manifest for interacting with the Stripe REST API.",
+  "version": "1.0.0",
+  "author": "Yuyz0112",
+  "manifestUrl": "https://raw.githubusercontent.com/Yuyz0112/public-api-skills/main/apis/stripe/stripe-api/SKILL.md",
+  "tags": ["payments", "stripe", "api"],
+  "createdAt": "2026-04-02T14:35:00Z"
+}

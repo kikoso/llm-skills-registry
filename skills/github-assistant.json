@@ -1,9 +1,0 @@
-{
-  "name": "GitHub Assistant",
-  "description": "An LLM skill to interact with GitHub repositories, create issues, and manage pull requests.",
-  "version": "2.1.0",
-  "author": "dev-expert",
-  "manifestUrl": "https://example.com/github-manifest.json",
-  "tags": ["github", "development", "productivity"],
-  "createdAt": "2026-04-02T12:30:00Z"
-}

@@ -1,9 +1,0 @@
-{
-  "name": "Wolfram Alpha",
-  "description": "Access Wolfram Alpha's computational knowledge engine for math, science, and data analysis.",
-  "version": "1.0.0",
-  "author": "Wolfram Research",
-  "manifestUrl": "https://www.wolframalpha.com/openapi.json",
-  "tags": ["math", "science", "computation"],
-  "createdAt": "2026-04-02T14:00:00Z"
-}
