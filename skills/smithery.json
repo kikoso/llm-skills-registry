@@ -5,6 +5,7 @@
   "author": "Smithery",
   "manifestUrl": "https://smithery.ai/docs/mcp",
   "homepageUrl": "https://smithery.ai",
-  "tags": ["mcp", "registry", "discovery"],
+  "category": "DevTools",
+  "tags": ["discovery", "mcp", "registry"],
   "createdAt": "2026-04-02T14:45:00Z"
 }

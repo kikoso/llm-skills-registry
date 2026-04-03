@@ -5,6 +5,7 @@
   "author": "Anthropic",
   "manifestUrl": "https://raw.githubusercontent.com/anthropics/skills/main/skills/xlsx/SKILL.md",
   "homepageUrl": "https://github.com/anthropics/skills/tree/main/skills/xlsx",
-  "tags": ["excel", "data", "office"],
+  "category": "Productivity",
+  "tags": ["data", "excel", "office"],
   "createdAt": "2026-04-02T15:45:00Z"
 }

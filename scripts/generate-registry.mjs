@@ -10,7 +10,24 @@ async function generate() {
   const registry = files.map(file => {
     const filePath = path.join(SKILLS_DIR, file);
     const content = fs.readFileSync(filePath, 'utf8');
-    return JSON.parse(content);
+    const skill = JSON.parse(content);
+    
+    // Normalize tags during generation for extra safety
+    if (skill.tags) {
+      skill.tags = [...new Set(skill.tags.map(t => t.toLowerCase().trim()))]
+        .sort()
+        .slice(0, 5);
+    }
+    
+    return skill;
+  });
+
+  // Sort registry by category, then by name
+  registry.sort((a, b) => {
+    if (a.category !== b.category) {
+      return a.category.localeCompare(b.category);
+    }
+    return a.name.localeCompare(b.name);
   });
 
   if (!fs.existsSync(path.dirname(OUTPUT_FILE))) {
@@ -18,7 +35,7 @@ async function generate() {
   }
 
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(registry, null, 2));
-  console.log(`Generated registry with ${registry.length} skills.`);
+  console.log(`Generated registry with ${registry.length} skills across categories.`);
 }
 
 generate();

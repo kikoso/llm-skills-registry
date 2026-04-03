@@ -5,6 +5,12 @@
   "author": "googlemaps-samples",
   "manifestUrl": "https://raw.githubusercontent.com/googlemaps-samples/android-maps3d-samples/main/.gemini/skills/android-maps3d-sdk/SKILL.md",
   "homepageUrl": "https://github.com/googlemaps-samples/android-maps3d-samples",
-  "tags": ["android", "compose", "3d", "google-maps"],
+  "category": "Mobile",
+  "tags": [
+    "3d",
+    "android",
+    "compose",
+    "google-maps"
+  ],
   "createdAt": "2026-04-03T10:00:00Z"
 }

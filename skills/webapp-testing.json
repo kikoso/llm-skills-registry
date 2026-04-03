@@ -5,6 +5,7 @@
   "author": "Anthropic",
   "manifestUrl": "https://raw.githubusercontent.com/anthropics/skills/main/skills/webapp-testing/SKILL.md",
   "homepageUrl": "https://github.com/anthropics/skills/tree/main/skills/webapp-testing",
-  "tags": ["testing", "qa", "web"],
+  "category": "Web",
+  "tags": ["qa", "testing", "web"],
   "createdAt": "2026-04-02T15:25:00Z"
 }

@@ -5,6 +5,11 @@
   "author": "Yuyz0112",
   "manifestUrl": "https://raw.githubusercontent.com/Yuyz0112/public-api-skills/main/apis/figma/figma-api/SKILL.md",
   "homepageUrl": "https://github.com/Yuyz0112/public-api-skills/tree/main/apis/figma",
-  "tags": ["design", "figma", "ui"],
+  "category": "Web",
+  "tags": [
+    "design",
+    "figma",
+    "ui"
+  ],
   "createdAt": "2026-04-02T15:05:00Z"
 }

@@ -5,8 +5,8 @@
     "dev": "npm run generate-registry && next dev",
     "build": "npm run generate-registry && next build",
     "generate-registry": "node scripts/generate-registry.mjs",
-    "start": "next start",
-    "lint": "next lint"
+    "lint": "node scripts/lint-skills.mjs && next lint",
+    "start": "next start"
   },
   "dependencies": {
     "next": "latest",

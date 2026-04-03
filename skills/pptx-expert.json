@@ -5,6 +5,7 @@
   "author": "Anthropic",
   "manifestUrl": "https://raw.githubusercontent.com/anthropics/skills/main/skills/pptx/SKILL.md",
   "homepageUrl": "https://github.com/anthropics/skills/tree/main/skills/pptx",
-  "tags": ["slides", "presentation", "office"],
+  "category": "Productivity",
+  "tags": ["office", "presentation", "slides"],
   "createdAt": "2026-04-02T15:40:00Z"
 }

@@ -5,6 +5,11 @@
   "author": "googlemaps",
   "manifestUrl": "https://raw.githubusercontent.com/googlemaps/android-maps-compose/main/.gemini/skills/android-maps-compose/SKILL.md",
   "homepageUrl": "https://github.com/googlemaps/android-maps-compose",
-  "tags": ["android", "compose", "google-maps"],
+  "category": "Mobile",
+  "tags": [
+    "android",
+    "compose",
+    "google-maps"
+  ],
   "createdAt": "2026-04-03T10:00:00Z"
 }

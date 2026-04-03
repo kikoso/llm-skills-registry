@@ -5,6 +5,7 @@
   "author": "Anthropic",
   "manifestUrl": "https://raw.githubusercontent.com/anthropics/skills/main/skills/pdf/SKILL.md",
   "homepageUrl": "https://github.com/anthropics/skills/tree/main/skills/pdf",
-  "tags": ["pdf", "documents", "office"],
+  "category": "Productivity",
+  "tags": ["documents", "office", "pdf"],
   "createdAt": "2026-04-02T15:35:00Z"
 }

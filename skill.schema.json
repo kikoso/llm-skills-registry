@@ -8,8 +8,17 @@
     "author": { "type": "string" },
     "manifestUrl": { "type": "string", "format": "uri" },
     "homepageUrl": { "type": "string", "format": "uri" },
-    "tags": { "type": "array", "items": { "type": "string" } },
+    "category": { 
+      "type": "string", 
+      "enum": ["Mobile", "Web", "Cloud", "Productivity", "DevTools"] 
+    },
+    "tags": { 
+      "type": "array", 
+      "uniqueItems": true,
+      "maxItems": 5,
+      "items": { "type": "string" } 
+    },
     "createdAt": { "type": "string", "format": "date-time" }
   },
-  "required": ["name", "description", "version", "author", "manifestUrl"]
+  "required": ["name", "description", "version", "author", "manifestUrl", "category"]
 }

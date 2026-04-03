@@ -5,6 +5,11 @@
   "author": "new-silvermoon",
   "manifestUrl": "https://raw.githubusercontent.com/new-silvermoon/awesome-android-agent-skills/main/.github/skills/performance/compose-performance-audit/SKILL.md",
   "homepageUrl": "https://github.com/new-silvermoon/awesome-android-agent-skills",
-  "tags": ["android", "compose", "performance"],
+  "category": "Mobile",
+  "tags": [
+    "android",
+    "compose",
+    "performance"
+  ],
   "createdAt": "2026-04-03T11:00:00Z"
 }

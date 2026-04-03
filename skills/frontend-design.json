@@ -5,6 +5,11 @@
   "author": "Anthropic",
   "manifestUrl": "https://raw.githubusercontent.com/anthropics/skills/main/skills/frontend-design/SKILL.md",
   "homepageUrl": "https://github.com/anthropics/skills/tree/main/skills/frontend-design",
-  "tags": ["frontend", "react", "ui"],
+  "category": "Web",
+  "tags": [
+    "frontend",
+    "react",
+    "ui"
+  ],
   "createdAt": "2026-04-02T15:20:00Z"
 }
