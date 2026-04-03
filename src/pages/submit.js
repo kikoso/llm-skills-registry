@@ -2,8 +2,6 @@ import Head from 'next/head';
 import Link from 'next/link';
 
 export default function Submit() {
-  const GITHUB_REPO = 'https://github.com/kikoso/llm-skills-registry/new/main/skills';
-
   const generateGitHubUrl = (e) => {
     e.preventDefault();
     const formData = new FormData(e.target);
@@ -21,15 +19,15 @@ export default function Submit() {
   return (
     <div className="container">
       <Head>
-        <title>Submit Skill - LLM Skills Registry</title>
+        <title>Submit Skill | FindSkills.dev</title>
       </Head>
 
       <header>
         <h1>Submit a Skill</h1>
-        <p className="subtitle">Add your skill to the public registry via GitHub</p>
+        <p className="subtitle">Share your manifest with the community. Submissions are handled via GitHub Pull Requests.</p>
         <nav className="nav">
-          <Link href="/">Home</Link>
-          <Link href="/submit">Submit Skill</Link>
+          <Link href="/">Back to Registry</Link>
+          <Link href="/submit">Submit</Link>
         </nav>
       </header>
 
@@ -37,11 +35,11 @@ export default function Submit() {
         <form className="submit-form" onSubmit={generateGitHubUrl}>
           <div className="form-group">
             <label>Skill Name</label>
-            <input name="name" placeholder="Weather Pro" required />
+            <input name="name" placeholder="e.g., GitHub Assistant" required />
           </div>
           <div className="form-group">
             <label>Description</label>
-            <textarea name="description" placeholder="Short description of what it does" required rows="3" />
+            <textarea name="description" placeholder="What can an LLM do with this skill?" required rows="4" />
           </div>
           <div className="form-group">
             <label>Version</label>
@@ -49,19 +47,25 @@ export default function Submit() {
           </div>
           <div className="form-group">
             <label>Author</label>
-            <input name="author" placeholder="Your GitHub handle" required />
+            <input name="author" placeholder="Your name or handle" required />
           </div>
           <div className="form-group">
-            <label>Manifest URL</label>
-            <input name="manifestUrl" placeholder="https://..." type="url" required />
+            <label>Manifest URL (Raw JSON/MD)</label>
+            <input name="manifestUrl" placeholder="https://raw.githubusercontent.com/..." type="url" required />
+          </div>
+          <div className="form-group">
+            <label>Documentation URL (Optional)</label>
+            <input name="homepageUrl" placeholder="https://github.com/your-repo" type="url" />
           </div>
           <div className="form-group">
             <label>Tags (comma separated)</label>
-            <input name="tags" placeholder="utility, weather, api" />
+            <input name="tags" placeholder="productivity, dev-tools, web" />
           </div>
-          <button type="submit">Prepare Submission on GitHub</button>
-          <p style={{ fontSize: '0.8rem', color: '#666' }}>
-            Note: This will open a pre-filled GitHub "New File" page. You'll need to click "Propose changes" to open a PR.
+          
+          <button type="submit" className="submit-btn">Propose Skill on GitHub</button>
+          
+          <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginTop: '1.5rem', textAlign: 'center' }}>
+            This will open a pre-filled GitHub page. Click <strong>"Propose changes"</strong> to initiate a review.
           </p>
         </form>
       </main>

@@ -1,5 +1,5 @@
 {
-  "name": "llm-skills-registry",
+  "name": "findskills-dev",
   "version": "1.0.0",
   "scripts": {
     "dev": "npm run generate-registry && next dev",

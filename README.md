@@ -1,22 +1,21 @@
-# LLM Skills Registry
+# FindSkills.dev
 
-A static-registry website for hosting LLM skill manifests, inspired by [klibs.io](https://klibs.io/).
+The open-source registry for LLM skills and AI agent tool manifests.
 
-## How it works
-- **Database:** All skills are stored as JSON files in the `skills/` directory.
-- **Site Generation:** A pre-build script (`scripts/generate-registry.mjs`) crawls the `skills/` folder and creates a `registry.json` file used by the frontend.
-- **Search:** Filtering and searching happen client-side for maximum speed and zero server cost.
-- **Hosting:** Fully compatible with GitHub Pages.
-
-## Deployment to GitHub Pages
-1. Build the project: `npm run build`
-2. This generates an `out/` folder.
-3. Configure your GitHub repository to serve the site from the `gh-pages` branch (or via a GitHub Action).
-
-## Submitting a New Skill
-Users can submit skills via the "Submit" page on the website. This page generates a GitHub "New File" URL which pre-fills the JSON data. When the user saves, it opens a Pull Request for you to review.
+## Features
+- **Verified Skills:** A curated list of manifests from Anthropic, Google, and the community.
+- **MCP Support:** Direct links to Model Context Protocol server endpoints.
+- **Fast Search:** Client-side filtering by tags, author, and description.
+- **Open Submissions:** Add your own skill via the web form, which generates a GitHub Pull Request.
 
 ## Tech Stack
-- **Next.js** (Static Site Generation)
-- **Vanilla CSS** (No dependencies, fast loading)
-- **GitHub API** (For submissions)
+- **Framework:** Next.js (Static Export)
+- **Styling:** Vanilla CSS (Modern Dark Mode)
+- **Hosting:** GitHub Pages + Custom Domain (`findskills.dev`)
+- **Data:** JSON-based static registry
+
+## Contributing
+To add a skill:
+1. Navigate to [findskills.dev/submit](https://findskills.dev/submit)
+2. Fill out the form.
+3. Propose the change on GitHub.

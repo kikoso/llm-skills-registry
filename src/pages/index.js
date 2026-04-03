@@ -7,7 +7,6 @@ export default function Home() {
   const [search, setSearch] = useState('');
   const [selectedTag, setSelectedTag] = useState(null);
 
-  // Extract all unique tags from the registry
   const allTags = useMemo(() => {
     const tags = new Set();
     registry.forEach(skill => {
@@ -16,7 +15,6 @@ export default function Home() {
     return Array.from(tags).sort();
   }, []);
 
-  // Filter skills based on search query and selected tag
   const filteredSkills = useMemo(() => {
     return registry.filter(skill => {
       const matchesSearch = 
@@ -33,15 +31,16 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>LLM Skills Registry</title>
+        <title>FindSkills.dev | LLM Skill Registry</title>
+        <meta name="description" content="Discover and install verified skills for your AI agents and LLMs." />
       </Head>
 
       <header>
-        <h1>Skill Registry</h1>
-        <p className="subtitle">The hub for LLM skills and manifests</p>
+        <h1>FindSkills.dev</h1>
+        <p className="subtitle">The open registry for LLM skills and AI agent tool manifests.</p>
         <nav className="nav">
-          <Link href="/">Home</Link>
-          <Link href="/submit">Submit Skill</Link>
+          <Link href="/">Explore</Link>
+          <Link href="/submit">Submit a Skill</Link>
         </nav>
       </header>
 
@@ -49,7 +48,7 @@ export default function Home() {
         <div className="filters">
           <input 
             type="text" 
-            placeholder="Search skills, authors..." 
+            placeholder="Search by name, description, or author..." 
             className="search-input"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
@@ -60,7 +59,7 @@ export default function Home() {
               className={`tag-btn ${!selectedTag ? 'active' : ''}`}
               onClick={() => setSelectedTag(null)}
             >
-              All
+              All Skills
             </button>
             {allTags.map(tag => (
               <button 
@@ -75,7 +74,7 @@ export default function Home() {
         </div>
 
         <div className="results-meta">
-          Found {filteredSkills.length} {filteredSkills.length === 1 ? 'skill' : 'skills'}
+          Showing {filteredSkills.length} {filteredSkills.length === 1 ? 'skill' : 'skills'}
         </div>
 
         <div className="skill-list">
@@ -83,11 +82,12 @@ export default function Home() {
             <div key={skill.name} className="skill-card">
               <div className="skill-name">{skill.name}</div>
               <p>{skill.description}</p>
-              <div style={{ marginBottom: '1rem' }}>
+              <div className="tags-container">
                 {skill.tags?.map(tag => (
                   <span key={tag} className="tag">{tag}</span>
                 ))}
               </div>
+              
               <div className="skill-actions">
                 <button 
                   className="action-btn primary"
@@ -96,15 +96,16 @@ export default function Home() {
                     alert('Manifest URL copied to clipboard!');
                   }}
                 >
-                  Copy Manifest URL
+                  Install Skill
                 </button>
                 <a 
                   href={skill.manifestUrl} 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="action-btn secondary"
+                  title="View Manifest JSON"
                 >
-                  View Source
+                  JSON
                 </a>
                 {skill.homepageUrl && (
                   <a 
@@ -112,18 +113,24 @@ export default function Home() {
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className="action-btn secondary"
+                    title="View Documentation"
                   >
-                    View Website
+                    Docs
                   </a>
                 )}
               </div>
-              <div style={{ marginTop: '1rem', fontSize: '0.9rem', color: '#666' }}>
-                By {skill.author} • v{skill.version}
+
+              <div className="footer-meta">
+                <span>By {skill.author}</span>
+                <span>v{skill.version}</span>
               </div>
             </div>
           ))}
           {filteredSkills.length === 0 && (
-            <div className="no-results">No skills match your criteria.</div>
+            <div className="no-results">
+              <h3>No skills found</h3>
+              <p>Try adjusting your search or filters.</p>
+            </div>
           )}
         </div>
       </main>
