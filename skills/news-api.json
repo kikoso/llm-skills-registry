@@ -1,0 +1,9 @@
+{
+  "name": "NewsAPI",
+  "description": "Search and retrieve live breaking news articles from over 80,000 sources worldwide.",
+  "version": "2.0.0",
+  "author": "NewsAPI",
+  "manifestUrl": "https://newsapi.org/v2/openapi.json",
+  "tags": ["news", "media", "real-time"],
+  "createdAt": "2026-04-02T14:15:00Z"
+}

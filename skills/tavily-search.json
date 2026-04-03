@@ -1,0 +1,9 @@
+{
+  "name": "Tavily Search",
+  "description": "AI-optimized search engine for LLMs and AI agents to fetch accurate, real-time web information.",
+  "version": "1.2.0",
+  "author": "Tavily AI",
+  "manifestUrl": "https://api.tavily.com/openapi.json",
+  "tags": ["search", "web", "ai-tools"],
+  "createdAt": "2026-04-02T14:05:00Z"
+}

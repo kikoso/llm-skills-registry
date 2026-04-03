@@ -1,0 +1,9 @@
+{
+  "name": "CoinGecko Crypto",
+  "description": "Get real-time cryptocurrency prices, market caps, and trading volume from CoinGecko.",
+  "version": "3.0.0",
+  "author": "CoinGecko",
+  "manifestUrl": "https://www.coingecko.com/api/v3/openapi.json",
+  "tags": ["crypto", "finance", "data"],
+  "createdAt": "2026-04-02T14:10:00Z"
+}
