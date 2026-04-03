@@ -1,0 +1,10 @@
+{
+  "name": "Android Architecture Expert",
+  "description": "Expert guide for implementing modern Android architecture (MVVM/MVI) with Clean Architecture principles.",
+  "version": "1.0.0",
+  "author": "new-silvermoon",
+  "manifestUrl": "https://raw.githubusercontent.com/new-silvermoon/awesome-android-agent-skills/main/.github/skills/architecture/android-architecture/SKILL.md",
+  "homepageUrl": "https://github.com/new-silvermoon/awesome-android-agent-skills",
+  "tags": ["android", "architecture", "mvvm", "clean-architecture"],
+  "createdAt": "2026-04-03T11:00:00Z"
+}

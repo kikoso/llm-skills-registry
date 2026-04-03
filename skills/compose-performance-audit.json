@@ -1,0 +1,10 @@
+{
+  "name": "Compose Performance Audit",
+  "description": "Specialized instructions for diagnosing and fixing recomposition issues and UI lag in Jetpack Compose.",
+  "version": "1.0.0",
+  "author": "new-silvermoon",
+  "manifestUrl": "https://raw.githubusercontent.com/new-silvermoon/awesome-android-agent-skills/main/.github/skills/performance/compose-performance/SKILL.md",
+  "homepageUrl": "https://github.com/new-silvermoon/awesome-android-agent-skills",
+  "tags": ["android", "compose", "performance"],
+  "createdAt": "2026-04-03T11:00:00Z"
+}
