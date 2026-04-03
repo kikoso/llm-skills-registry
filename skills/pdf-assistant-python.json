@@ -1,0 +1,11 @@
+{
+  "name": "PDF Assistant",
+  "description": "Official Anthropic skill for generating, manipulating, and analyzing PDF files using Python-based workflows.",
+  "version": "1.0.0",
+  "author": "anthropics",
+  "manifestUrl": "https://raw.githubusercontent.com/anthropics/skills/main/skills/pdf/SKILL.md",
+  "homepageUrl": "https://github.com/anthropics/skills",
+  "category": "Productivity",
+  "tags": ["documents", "office", "pdf", "python"],
+  "createdAt": "2026-04-03T12:00:00Z"
+}

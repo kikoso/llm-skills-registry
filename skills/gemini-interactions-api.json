@@ -1,0 +1,11 @@
+{
+  "name": "Gemini Interactions API",
+  "description": "Expert guide for implementing multi-turn chat and structured output in Python using the Gemini API.",
+  "version": "1.0.0",
+  "author": "google-gemini",
+  "manifestUrl": "https://raw.githubusercontent.com/google-gemini/gemini-skills/main/skills/gemini-interactions-api/SKILL.md",
+  "homepageUrl": "https://github.com/google-gemini/gemini-skills",
+  "category": "DevTools",
+  "tags": ["ai", "chat", "gemini", "python", "structured-output"],
+  "createdAt": "2026-04-03T12:00:00Z"
+}
