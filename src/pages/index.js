@@ -34,6 +34,20 @@ export default function Home() {
         <title>FindSkills.dev | LLM Skill Registry</title>
         <meta name="description" content="Discover and install verified skills for your AI agents and LLMs." />
         <link rel="icon" href="/llm-skills-registry/favicon.svg" type="image/svg+xml" />
+        
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://findskills.dev/" />
+        <meta property="og:title" content="FindSkills.dev | LLM Skill Registry" />
+        <meta property="og:description" content="Discover and install verified skills for your AI agents and LLMs." />
+        <meta property="og:image" content="https://kikoso.github.io/llm-skills-registry/og-image.png" />
+
+        {/* Twitter */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://findskills.dev/" />
+        <meta property="twitter:title" content="FindSkills.dev | LLM Skill Registry" />
+        <meta property="twitter:description" content="Discover and install verified skills for your AI agents and LLMs." />
+        <meta property="twitter:image" content="https://kikoso.github.io/llm-skills-registry/og-image.png" />
       </Head>
 
       <header>
