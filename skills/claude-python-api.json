@@ -1,0 +1,11 @@
+{
+  "name": "Claude Python API",
+  "description": "Official Anthropic skill for integrating Claude into Python applications via the Anthropic SDK.",
+  "version": "1.0.0",
+  "author": "anthropics",
+  "manifestUrl": "https://raw.githubusercontent.com/anthropics/skills/main/skills/claude-api/SKILL.md",
+  "homepageUrl": "https://github.com/anthropics/skills",
+  "category": "DevTools",
+  "tags": ["ai", "anthropic", "claude", "python", "sdk"],
+  "createdAt": "2026-04-03T12:00:00Z"
+}

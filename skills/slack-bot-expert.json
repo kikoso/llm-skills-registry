@@ -1,0 +1,11 @@
+{
+  "name": "Slack Bot Expert",
+  "description": "Comprehensive guide for building and deploying Slack bots and apps using the Slack SDK for Python.",
+  "version": "1.0.0",
+  "author": "Yuyz0112",
+  "manifestUrl": "https://raw.githubusercontent.com/Yuyz0112/public-api-skills/main/apis/slack/SKILL.md",
+  "homepageUrl": "https://github.com/Yuyz0112/public-api-skills",
+  "category": "DevTools",
+  "tags": ["api", "bot", "python", "slack"],
+  "createdAt": "2026-04-03T12:00:00Z"
+}

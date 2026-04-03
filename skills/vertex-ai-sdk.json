@@ -1,0 +1,11 @@
+{
+  "name": "Vertex AI SDK",
+  "description": "Expert guidance for Vertex AI using the Python Gen AI SDK, including model deployment and management.",
+  "version": "1.0.0",
+  "author": "google-gemini",
+  "manifestUrl": "https://raw.githubusercontent.com/google-gemini/gemini-skills/main/skills/vertex-ai-api-dev/SKILL.md",
+  "homepageUrl": "https://github.com/google-gemini/gemini-skills",
+  "category": "Cloud",
+  "tags": ["ai", "cloud", "google-cloud", "python", "vertex-ai"],
+  "createdAt": "2026-04-03T12:00:00Z"
+}

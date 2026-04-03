@@ -1,0 +1,11 @@
+{
+  "name": "Twilio Python SDK",
+  "description": "Guide for integrating Twilio services like SMS, Voice, and WhatsApp using the Twilio Python library.",
+  "version": "1.0.0",
+  "author": "Yuyz0112",
+  "manifestUrl": "https://raw.githubusercontent.com/Yuyz0112/public-api-skills/main/apis/twilio/SKILL.md",
+  "homepageUrl": "https://github.com/Yuyz0112/public-api-skills",
+  "category": "Cloud",
+  "tags": ["api", "communications", "python", "twilio"],
+  "createdAt": "2026-04-03T12:00:00Z"
+}

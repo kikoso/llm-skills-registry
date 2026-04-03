@@ -1,0 +1,11 @@
+{
+  "name": "MCP Python Builder",
+  "description": "Official guide for building Model Context Protocol (MCP) servers using the Python SDK.",
+  "version": "1.0.0",
+  "author": "anthropics",
+  "manifestUrl": "https://raw.githubusercontent.com/anthropics/skills/main/skills/mcp-builder/SKILL.md",
+  "homepageUrl": "https://github.com/anthropics/skills",
+  "category": "DevTools",
+  "tags": ["ai", "mcp", "python", "sdk"],
+  "createdAt": "2026-04-03T12:00:00Z"
+}

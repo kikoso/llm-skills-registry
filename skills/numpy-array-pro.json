@@ -1,0 +1,11 @@
+{
+  "name": "NumPy Array Pro",
+  "description": "Specialized guide for high-performance numerical computing with NumPy arrays.",
+  "version": "1.0.0",
+  "author": "Community",
+  "manifestUrl": "https://raw.githubusercontent.com/new-silvermoon/awesome-python-agent-skills/main/.github/skills/data/numpy-pro/SKILL.md",
+  "homepageUrl": "https://numpy.org/",
+  "category": "Productivity",
+  "tags": ["math", "numerical", "numpy", "python"],
+  "createdAt": "2026-04-03T12:00:00Z"
+}

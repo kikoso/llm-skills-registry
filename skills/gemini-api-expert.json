@@ -1,0 +1,11 @@
+{
+  "name": "Gemini API Expert",
+  "description": "Comprehensive guide for the Google Gemini Python SDK, covering content generation and model configuration.",
+  "version": "1.0.0",
+  "author": "google-gemini",
+  "manifestUrl": "https://raw.githubusercontent.com/google-gemini/gemini-skills/main/skills/gemini-api-dev/SKILL.md",
+  "homepageUrl": "https://github.com/google-gemini/gemini-skills",
+  "category": "DevTools",
+  "tags": ["ai", "gemini", "python", "sdk"],
+  "createdAt": "2026-04-03T12:00:00Z"
+}

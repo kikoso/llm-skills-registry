@@ -1,0 +1,11 @@
+{
+  "name": "Pandas Data Wrangler",
+  "description": "Expert guidance for data manipulation and analysis using the Pandas library in Python.",
+  "version": "1.0.0",
+  "author": "Community",
+  "manifestUrl": "https://raw.githubusercontent.com/new-silvermoon/awesome-python-agent-skills/main/.github/skills/data/pandas-expert/SKILL.md",
+  "homepageUrl": "https://pandas.pydata.org/",
+  "category": "Productivity",
+  "tags": ["data", "data-analysis", "pandas", "python"],
+  "createdAt": "2026-04-03T12:00:00Z"
+}

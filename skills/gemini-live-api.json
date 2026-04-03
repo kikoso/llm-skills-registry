@@ -1,0 +1,11 @@
+{
+  "name": "Gemini Live API",
+  "description": "Guide for implementing real-time interactions using the Gemini Live API in Python.",
+  "version": "1.0.0",
+  "author": "google-gemini",
+  "manifestUrl": "https://raw.githubusercontent.com/google-gemini/gemini-skills/main/skills/gemini-live-api-dev/SKILL.md",
+  "homepageUrl": "https://github.com/google-gemini/gemini-skills",
+  "category": "DevTools",
+  "tags": ["ai", "gemini", "live", "python", "real-time"],
+  "createdAt": "2026-04-03T12:00:00Z"
+}

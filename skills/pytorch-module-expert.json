@@ -1,0 +1,11 @@
+{
+  "name": "PyTorch nn.Module Expert",
+  "description": "Deep learning guide for implementing neural network architectures with PyTorch's nn.Module.",
+  "version": "1.0.0",
+  "author": "pytorch",
+  "manifestUrl": "https://raw.githubusercontent.com/pytorch/pytorch/main/.claude/skills/docstring/SKILL.md",
+  "homepageUrl": "https://pytorch.org/",
+  "category": "DevTools",
+  "tags": ["ai", "deep-learning", "ml", "python", "pytorch"],
+  "createdAt": "2026-04-03T12:00:00Z"
+}

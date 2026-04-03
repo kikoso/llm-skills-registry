@@ -1,0 +1,11 @@
+{
+  "name": "Django Model Expert",
+  "description": "Guide for designing efficient Django models, ORM optimization, and database migrations.",
+  "version": "1.0.0",
+  "author": "Community",
+  "manifestUrl": "https://raw.githubusercontent.com/new-silvermoon/awesome-python-agent-skills/main/.github/skills/web/django-models/SKILL.md",
+  "homepageUrl": "https://www.djangoproject.com/",
+  "category": "Web",
+  "tags": ["django", "orm", "python", "sql", "web"],
+  "createdAt": "2026-04-03T12:00:00Z"
+}

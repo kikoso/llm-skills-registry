@@ -1,0 +1,11 @@
+{
+  "name": "GitHub API Skill",
+  "description": "Expert guide for interacting with the GitHub REST API, managing repositories, and automation.",
+  "version": "1.0.0",
+  "author": "Yuyz0112",
+  "manifestUrl": "https://raw.githubusercontent.com/Yuyz0112/public-api-skills/main/apis/github/SKILL.md",
+  "homepageUrl": "https://github.com/Yuyz0112/public-api-skills",
+  "category": "DevTools",
+  "tags": ["api", "automation", "github", "git", "python"],
+  "createdAt": "2026-04-03T12:00:00Z"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Flask Microservices",
+  "description": "Best practices for building scalable microservices and web applications using the Flask framework.",
+  "version": "1.0.0",
+  "author": "Community",
+  "manifestUrl": "https://raw.githubusercontent.com/new-silvermoon/awesome-python-agent-skills/main/.github/skills/web/flask-microservices/SKILL.md",
+  "homepageUrl": "https://flask.palletsprojects.com/",
+  "category": "Web",
+  "tags": ["flask", "microservices", "python", "web"],
+  "createdAt": "2026-04-03T12:00:00Z"
+}
