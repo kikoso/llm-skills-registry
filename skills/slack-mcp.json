@@ -1,9 +1,0 @@
-{
-  "name": "Slack (Official MCP)",
-  "description": "Official Slack Model Context Protocol endpoint for AI agent integration.",
-  "version": "1.0.0",
-  "author": "Slack",
-  "manifestUrl": "https://mcp.slack.com/",
-  "tags": ["slack", "mcp", "communication"],
-  "createdAt": "2026-04-02T14:40:00Z"
-}

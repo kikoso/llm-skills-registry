@@ -1,9 +1,0 @@
-{
-  "name": "GitHub (Official MCP)",
-  "description": "Connect your LLM directly to GitHub to manage issues, pull requests, and repositories via the Model Context Protocol.",
-  "version": "1.0.0",
-  "author": "GitHub",
-  "manifestUrl": "https://api.githubcopilot.com/mcp/",
-  "tags": ["github", "mcp", "development"],
-  "createdAt": "2026-04-02T14:30:00Z"
-}
