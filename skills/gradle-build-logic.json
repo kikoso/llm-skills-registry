@@ -3,7 +3,7 @@
   "description": "Guide for managing complex Gradle builds, version catalogs, and convention plugins.",
   "version": "1.0.0",
   "author": "new-silvermoon",
-  "manifestUrl": "https://raw.githubusercontent.com/new-silvermoon/awesome-android-agent-skills/main/.github/skills/tooling/gradle-build-logic/SKILL.md",
+  "manifestUrl": "https://raw.githubusercontent.com/new-silvermoon/awesome-android-agent-skills/main/.github/skills/build_and_tooling/android-gradle-logic/SKILL.md",
   "homepageUrl": "https://github.com/new-silvermoon/awesome-android-agent-skills",
   "tags": ["android", "gradle", "tooling"],
   "createdAt": "2026-04-03T11:00:00Z"
