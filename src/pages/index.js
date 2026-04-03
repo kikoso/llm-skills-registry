@@ -106,6 +106,16 @@ export default function Home() {
                 >
                   View Source
                 </a>
+                {skill.homepageUrl && (
+                  <a 
+                    href={skill.homepageUrl} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="action-btn secondary"
+                  >
+                    View Website
+                  </a>
+                )}
               </div>
               <div style={{ marginTop: '1rem', fontSize: '0.9rem', color: '#666' }}>
                 By {skill.author} • v{skill.version}

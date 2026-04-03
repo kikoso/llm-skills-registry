@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Yuyz0112",
   "manifestUrl": "https://raw.githubusercontent.com/Yuyz0112/public-api-skills/main/apis/pagerduty/pagerduty-api/SKILL.md",
+  "homepageUrl": "https://github.com/Yuyz0112/public-api-skills/tree/main/apis/pagerduty",
   "tags": ["ops", "incidents", "pagerduty"],
   "createdAt": "2026-04-02T15:10:00Z"
 }

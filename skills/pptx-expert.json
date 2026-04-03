@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Anthropic",
   "manifestUrl": "https://raw.githubusercontent.com/anthropics/skills/main/skills/pptx/SKILL.md",
+  "homepageUrl": "https://github.com/anthropics/skills/tree/main/skills/pptx",
   "tags": ["slides", "presentation", "office"],
   "createdAt": "2026-04-02T15:40:00Z"
 }

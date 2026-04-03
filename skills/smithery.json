@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Smithery",
   "manifestUrl": "https://smithery.ai/docs/mcp",
+  "homepageUrl": "https://smithery.ai",
   "tags": ["mcp", "registry", "discovery"],
   "createdAt": "2026-04-02T14:45:00Z"
 }

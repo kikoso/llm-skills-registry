@@ -7,6 +7,7 @@
     "version": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" },
     "author": { "type": "string" },
     "manifestUrl": { "type": "string", "format": "uri" },
+    "homepageUrl": { "type": "string", "format": "uri" },
     "tags": { "type": "array", "items": { "type": "string" } },
     "createdAt": { "type": "string", "format": "date-time" }
   },
