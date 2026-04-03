@@ -1,11 +1,15 @@
 {
-  "name": "PagerDuty Python Ops",
+  "name": "PagerDuty Ops",
   "description": "Expert guide for managing PagerDuty incidents and on-call schedules using Python automation.",
   "version": "1.0.0",
   "author": "Yuyz0112",
   "manifestUrl": "https://raw.githubusercontent.com/Yuyz0112/public-api-skills/main/apis/pagerduty/pagerduty-api/SKILL.md",
   "homepageUrl": "https://github.com/Yuyz0112/public-api-skills",
   "category": "Cloud",
-  "tags": ["api", "incidents", "pagerduty", "python"],
+  "tags": [
+    "incidents",
+    "pagerduty",
+    "api"
+  ],
   "createdAt": "2026-04-03T12:00:00Z"
 }

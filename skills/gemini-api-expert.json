@@ -6,6 +6,10 @@
   "manifestUrl": "https://raw.githubusercontent.com/google-gemini/gemini-skills/main/skills/gemini-api-dev/SKILL.md",
   "homepageUrl": "https://github.com/google-gemini/gemini-skills",
   "category": "DevTools",
-  "tags": ["ai", "gemini", "python", "sdk"],
+  "tags": [
+    "gemini",
+    "ai",
+    "python"
+  ],
   "createdAt": "2026-04-03T12:00:00Z"
 }

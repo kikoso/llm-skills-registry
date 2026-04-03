@@ -6,6 +6,10 @@
   "manifestUrl": "https://raw.githubusercontent.com/google-gemini/gemini-skills/main/skills/gemini-interactions-api/SKILL.md",
   "homepageUrl": "https://github.com/google-gemini/gemini-skills",
   "category": "DevTools",
-  "tags": ["ai", "chat", "gemini", "python", "structured-output"],
+  "tags": [
+    "chat",
+    "gemini",
+    "structured-output"
+  ],
   "createdAt": "2026-04-03T12:00:00Z"
 }

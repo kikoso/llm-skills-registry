@@ -1,11 +1,15 @@
 {
-  "name": "Stripe Payments (Python)",
+  "name": "Stripe Payments",
   "description": "Expert guide for integrating Stripe payments and billing into Python-based web applications.",
   "version": "1.0.0",
   "author": "Yuyz0112",
   "manifestUrl": "https://raw.githubusercontent.com/Yuyz0112/public-api-skills/main/apis/stripe/stripe-api/SKILL.md",
   "homepageUrl": "https://github.com/Yuyz0112/public-api-skills",
   "category": "Cloud",
-  "tags": ["api", "payments", "python", "stripe"],
+  "tags": [
+    "payments",
+    "stripe",
+    "api"
+  ],
   "createdAt": "2026-04-03T12:00:00Z"
 }

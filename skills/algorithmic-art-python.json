@@ -2,10 +2,14 @@
   "name": "Algorithmic Art (Python)",
   "description": "Procedural guidance for creating algorithmic and generative art using Python libraries.",
   "version": "1.0.0",
-  "author": "anthropics",
+  "author": "Anthropic",
   "manifestUrl": "https://raw.githubusercontent.com/anthropics/skills/main/skills/algorithmic-art/SKILL.md",
   "homepageUrl": "https://github.com/anthropics/skills",
   "category": "Productivity",
-  "tags": ["art", "generative", "graphics", "python"],
+  "tags": [
+    "art",
+    "generative",
+    "graphics"
+  ],
   "createdAt": "2026-04-03T12:00:00Z"
 }

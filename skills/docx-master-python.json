@@ -2,10 +2,14 @@
   "name": "Word (DOCX) Master",
   "description": "Official Anthropic skill for creating and editing complex Microsoft Word documents via Python automation.",
   "version": "1.0.0",
-  "author": "anthropics",
+  "author": "Anthropic",
   "manifestUrl": "https://raw.githubusercontent.com/anthropics/skills/main/skills/docx/SKILL.md",
   "homepageUrl": "https://github.com/anthropics/skills",
   "category": "Productivity",
-  "tags": ["documents", "docx", "office", "python", "word"],
+  "tags": [
+    "docx",
+    "python",
+    "word"
+  ],
   "createdAt": "2026-04-03T12:00:00Z"
 }

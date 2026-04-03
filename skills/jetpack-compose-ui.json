@@ -6,6 +6,9 @@
   "manifestUrl": "https://raw.githubusercontent.com/new-silvermoon/awesome-android-agent-skills/main/.github/skills/ui/compose-ui/SKILL.md",
   "homepageUrl": "https://github.com/new-silvermoon/awesome-android-agent-skills",
   "category": "Mobile",
-  "tags": ["android", "compose", "ui"],
+  "tags": [
+    "compose",
+    "ui"
+  ],
   "createdAt": "2026-04-03T11:00:00Z"
 }

@@ -6,6 +6,10 @@
   "manifestUrl": "https://raw.githubusercontent.com/Yuyz0112/public-api-skills/main/apis/jira-cloud/SKILL.md",
   "homepageUrl": "https://github.com/Yuyz0112/public-api-skills",
   "category": "DevTools",
-  "tags": ["api", "automation", "jira", "python"],
+  "tags": [
+    "automation",
+    "jira",
+    "api"
+  ],
   "createdAt": "2026-04-03T12:00:00Z"
 }
