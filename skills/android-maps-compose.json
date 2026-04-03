@@ -1,0 +1,10 @@
+{
+  "name": "Android Maps Compose",
+  "description": "Expert guide for integrating Google Maps into Jetpack Compose applications using the android-maps-compose library.",
+  "version": "1.0.0",
+  "author": "googlemaps",
+  "manifestUrl": "https://raw.githubusercontent.com/googlemaps/android-maps-compose/main/.gemini/skills/android-maps-compose/SKILL.md",
+  "homepageUrl": "https://github.com/googlemaps/android-maps-compose",
+  "tags": ["android", "compose", "google-maps"],
+  "createdAt": "2026-04-03T10:00:00Z"
+}

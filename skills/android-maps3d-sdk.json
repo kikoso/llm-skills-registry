@@ -1,0 +1,10 @@
+{
+  "name": "Android Maps 3D SDK",
+  "description": "Specialized guide for integrating the Google Maps 3D SDK into Android Jetpack Compose applications.",
+  "version": "1.0.0",
+  "author": "googlemaps-samples",
+  "manifestUrl": "https://raw.githubusercontent.com/googlemaps-samples/android-maps3d-samples/main/.gemini/skills/android-maps3d-sdk/SKILL.md",
+  "homepageUrl": "https://github.com/googlemaps-samples/android-maps3d-samples",
+  "tags": ["android", "compose", "3d", "google-maps"],
+  "createdAt": "2026-04-03T10:00:00Z"
+}
