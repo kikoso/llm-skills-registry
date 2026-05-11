@@ -81,9 +81,7 @@ jobs:
           
           PR_URL=$(gh pr create \
             --title "Skill Submission: $SKILL_NAME" \
-            --body "Automated skill submission from Issue #$ISSUE_NUMBER. 
-
-Closes #$ISSUE_NUMBER" \
+            --body "Automated skill submission from Issue #$ISSUE_NUMBER. Closes #$ISSUE_NUMBER" \
             --head "$BRANCH_NAME" \
             --base main)
           
