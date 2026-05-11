@@ -8,8 +8,8 @@ on:
 jobs:
   create-pr:
     if: |
-      github.event_name == 'issues' && 
-      contains(github.event.issue.labels.*.name, 'skill-submission')
+      github.event_name == 'workflow_dispatch' || 
+      (github.event_name == 'issues' && startsWith(github.event.issue.title, 'Skill Submission:'))
     runs-on: ubuntu-latest
     permissions:
       contents: write
