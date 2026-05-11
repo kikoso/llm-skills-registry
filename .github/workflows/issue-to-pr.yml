@@ -1,0 +1,87 @@
+name: Issue to PR
+
+on:
+  issues:
+    types: [opened, labeled]
+
+jobs:
+  create-pr:
+    if: contains(github.event.issue.labels.*.name, 'skill-submission')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Parse Issue
+        id: parse
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const body = context.payload.issue.body;
+            const jsonRegex = /```json\n([\s\S]*?)\n```/;
+            const filenameRegex = /\*\*Filename:\*\* (.*\.json)/;
+            
+            const jsonMatch = body.match(jsonRegex);
+            const filenameMatch = body.match(filenameRegex);
+            
+            if (!jsonMatch || !filenameMatch) {
+              core.setFailed("Could not parse issue body. Make sure it contains the JSON block and Filename.");
+              return;
+            }
+            
+            const skillJson = jsonMatch[1];
+            const filename = filenameMatch[1];
+            
+            try {
+              JSON.parse(skillJson);
+            } catch (e) {
+              core.setFailed("Invalid JSON in issue body.");
+              return;
+            }
+            
+            core.setOutput('skill_json', skillJson);
+            core.setOutput('filename', filename);
+            core.setOutput('skill_name', JSON.parse(skillJson).name);
+
+      - name: Create PR
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SKILL_JSON: ${{ steps.parse.outputs.skill_json }}
+          FILENAME: ${{ steps.parse.outputs.filename }}
+          SKILL_NAME: ${{ steps.parse.outputs.skill_name }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          BRANCH_NAME="submission/issue-${ISSUE_NUMBER}"
+          
+          # Check if branch already exists
+          if git ls-remote --exit-code --heads origin "$BRANCH_NAME"; then
+            echo "Branch $BRANCH_NAME already exists. Skipping."
+            exit 0
+          fi
+
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git checkout -b "$BRANCH_NAME"
+          
+          mkdir -p skills
+          echo "$SKILL_JSON" > "skills/$FILENAME"
+          
+          git add "skills/$FILENAME"
+          git commit -m "Add skill: $SKILL_NAME (from Issue #$ISSUE_NUMBER)"
+          git push origin "$BRANCH_NAME"
+          
+          PR_URL=$(gh pr create \
+            --title "Skill Submission: $SKILL_NAME" \
+            --body "Automated skill submission from Issue #$ISSUE_NUMBER. 
+
+Closes #$ISSUE_NUMBER" \
+            --head "$BRANCH_NAME" \
+            --base main)
+          
+          gh issue comment "$ISSUE_NUMBER" --body "✅ Thank you for your submission! I've created a Pull Request for you: $PR_URL"
